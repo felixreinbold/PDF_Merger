@@ -11,6 +11,7 @@ Falls Python noch nicht vorhanden ist:
 
 ## 2️⃣ Projekt herunterladen
 
+Ordner in beliebigem Pfad erstellen. z.B. Desktop. in der Konsole öffnen und
 Per Git:
 
 ```sh
