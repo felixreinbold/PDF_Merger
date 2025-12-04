@@ -1,32 +1,58 @@
-🚀 Installation & Build der EXE
+# 🚀 Installation & Build der EXE
 
-1. Python installieren
+Damit die Anwendung unter Windows reibungslos läuft und ohne Sicherheitswarnungen ausgeführt werden kann, empfiehlt es sich, die EXE **lokal selbst zu erstellen**.  
+Das ist sicher, einfach und benötigt nur wenige Schritte.
 
-Falls Python noch nicht installiert ist:
-👉 https://www.python.org/downloads/
+## 1️⃣ Python installieren
 
+Falls Python noch nicht vorhanden ist:
 
-2. Projekt herunterladen
+👉 **https://www.python.org/downloads/**
+
+> **Wichtig:** Während der Installation die Option  
+> **"Add Python to PATH"** aktivieren.
+
+## 2️⃣ Projekt herunterladen
+
 Per Git:
+
+```sh
 git clone https://github.com/felixreinbold/PDF_Merger.git
+```
 
-4. Abhängigkeiten installieren
+ODER als ZIP herunterladen & entpacken.
 
-Im Projektordner ausführen:
+## 3️⃣ Abhängigkeiten installieren
 
+Im Projektordner (`PDF_Merger/`) folgendes ausführen:
+
+```sh
 pip install -r requirements.txt
 pip install pyinstaller
+```
 
-4. EXE lokal erstellen
+> Diese Befehle installieren alle benötigten Bibliotheken  
+> inklusive `tkinterdnd2` und `PyInstaller`.
+
+## 4️⃣ EXE lokal erstellen
+
+```sh
 pyinstaller pdf_merger.spec
+```
 
+Nach wenigen Sekunden erscheint die fertige Anwendung hier:
 
-Nach wenigen Sekunden befindet sich die fertige Anwendung hier:
-
+```
 dist/PDF_Merger/PDF_Merger.exe
+```
 
-▶ Anwendung starten
+# ▶ Anwendung starten
 
-Doppelklicke:
+Doppelklicke die Datei:
 
+```
 dist/PDF_Merger/PDF_Merger.exe
+```
+
+Die Anwendung öffnet sich ohne Installation und ohne Administratorrechte.
+
