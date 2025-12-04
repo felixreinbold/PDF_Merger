@@ -1,6 +1,5 @@
 🚀 Installation & Build der EXE
 
-
 1. Python installieren
 
 Falls Python noch nicht installiert ist:
