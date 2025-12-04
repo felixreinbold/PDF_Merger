@@ -11,14 +11,13 @@ Falls Python noch nicht vorhanden ist:
 
 ## 2️⃣ Projekt herunterladen
 
-Ordner in beliebigem Pfad erstellen. z.B. Desktop. in der Konsole öffnen und
+Ordner in beliebigem Pfad erstellen. z.B. Desktop. in der Konsole öffnen (Windowstaste + r -> cmd -> cd [ordnerpfad]) und
 Per Git:
 
 ```sh
 git clone https://github.com/felixreinbold/PDF_Merger.git
 ```
-
-ODER als ZIP herunterladen & entpacken.
+ausführen.
 
 ## 3️⃣ Abhängigkeiten installieren
 
