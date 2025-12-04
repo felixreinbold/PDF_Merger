@@ -8,9 +8,9 @@ Falls Python noch nicht installiert ist:
 
 2. Projekt herunterladen
 Per Git:
-git clone REPO_URL_HIER_EINFÜGEN
+git clone https://github.com/felixreinbold/PDF_Merger.git
 
-3. Abhängigkeiten installieren
+4. Abhängigkeiten installieren
 
 Im Projektordner ausführen:
 
