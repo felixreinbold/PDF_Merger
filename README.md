@@ -1,8 +1,5 @@
 # 🚀 Installation & Build der EXE
 
-Damit die Anwendung unter Windows reibungslos läuft und ohne Sicherheitswarnungen ausgeführt werden kann, empfiehlt es sich, die EXE **lokal selbst zu erstellen**.  
-Das ist sicher, einfach und benötigt nur wenige Schritte.
-
 ## 1️⃣ Python installieren
 
 Falls Python noch nicht vorhanden ist:
