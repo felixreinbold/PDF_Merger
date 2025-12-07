@@ -11,7 +11,7 @@ Ein einfaches Tool zum Zusammenführen von PDF-Dateien mit Drag & Drop Funktion.
 
 1. **Repository klonen**
    ```bash
-   git clone <URL_ZUM_REPO>
+   git clone https://github.com/felixreinbold/PDF_Merger.git
    cd PDF_Merger
    ```
 
